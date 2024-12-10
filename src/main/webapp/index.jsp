@@ -8,7 +8,7 @@
     <title>Benjeo's Portfolio | DevOps Engineer</title>
 
     <!-- Link to external CSS (main.css) -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
 
     <!-- Font Awesome for icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
         <section id="about" class="section">
             <div class="container">
                 <h2>About Me</h2>
-                <p>Hello! I’m Benjeo, a passionate DevOps Engineer. I specialize in cloud platforms, CI/CD pipelines, and automation.</p>
+                <p>Hello! I'm Benjeo, a passionate DevOps Engineer. I specialize in cloud platforms, CI/CD pipelines, and automation.</p>
             </div>
         </section>
 
