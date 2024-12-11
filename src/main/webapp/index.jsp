@@ -8,7 +8,7 @@
     <title>Benjeo's Portfolio | DevOps Engineer</title>
 
     <!-- Link to external CSS (main.css) -->
-    <link href="./main.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}/assets/css/main.css" rel="stylesheet" type="text/css">
 
     <!-- Font Awesome for icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
