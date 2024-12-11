@@ -7,8 +7,74 @@
     <meta name="robots" content="index,follow,max-image-preview:large">
     <title>Benjeo's Portfolio | DevOps Engineer</title>
 
-    <!-- Link to external CSS (main.css) -->
-    <link href="${pageContext.request.contextPath}/assets/css/main.css" rel="stylesheet" type="text/css">
+    <!-- Internal CSS -->
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Header */
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .header nav ul li {
+            display: inline;
+        }
+
+        .header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Sections */
+        .section {
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 
     <!-- Font Awesome for icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
@@ -72,8 +138,10 @@
         </div>
     </footer>
 
-    <!-- Link to external JS (main.js) -->
-    <script src="${pageContext.request.contextPath}/assets/js/main.js"></script>
+    <!-- Inline JavaScript -->
+    <script>
+        console.log("Portfolio website loaded successfully!");
+    </script>
 </body>
 
 </html>
