@@ -1,2 +1,4 @@
-FROM tomcat:9.0-jdk11
-COPY target/Benjeoportfolio.war /usr/local/tomcat/webapps/Benjeoportfolio.war
+FROM tomcat:latest
+COPY target/Benjeoportfolio.war /usr/local/tomcat/webapps/
+EXPOSE 8080
+
